@@ -1,0 +1,22 @@
+.carousel {
+  display: flex;
+  height: 100vh;
+  justify-self: center;
+  align-items: center;
+}
+
+.badgeWrap {
+  flex: 1;
+}
+
+.contentWrap {
+  flex: 2;
+  width: 800px;
+  height: 800px;
+  border: 1px solid #d9d9d9;
+  overflow: scroll;
+  box-shadow: 0 0 4px 1px #ddd;
+  padding: 10px 4px;
+  text-align: center;
+  color: #333;
+}

@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+}
+
+.linkWrap {
+  padding: 60px 80px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  margin: 10px;
+  background: #1890ff;
+  color: #fff;
+}
+
+.linkWrap:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 1px #ddd;
+}

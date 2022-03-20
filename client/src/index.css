@@ -1,0 +1,9 @@
+@import '~antd/dist/antd.css';
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}

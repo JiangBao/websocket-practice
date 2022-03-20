@@ -1,0 +1,60 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #6cb9fc;
+}
+
+.game:hover {
+  cursor: pointer;
+}
+
+.user {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.user.self {
+  width: 68px;
+  height: 68px;
+  padding: 2px;
+  color: #44fca0;
+  box-shadow: 0 0 6px 4px #44fca0;
+}
+
+.user.attacked {
+  animation: attacked 2s;
+}
+
+.emoji {
+  position: absolute;
+  font-size: 30px;
+  right: -30px;
+  top: -50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes attacked {
+  0% {
+    box-shadow: 0 0 40px 8px #ff0000;
+  }
+  50% {
+    box-shadow: 0 0 10px 4px #ff0000;
+  }
+  100% {
+    box-shadow: 0 0 40px 8px #ff0000;
+  }
+}
